@@ -1,0 +1,49 @@
+<resources>
+
+    <!--app ids -->
+    <string name="app_name">RSS Reader</string>
+    <string name="facebook_app_id">1949738141905746</string>
+
+    <!--activities -->
+    <string name="title_activity_feed_view">FeedViewActivity</string>
+    <string name="title_activity_article">ArticleActivity</string>
+
+    <!--controls -->
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="add">Add</string>
+    <string name="modify">Modify</string>
+    <string name="ok">Ok</string>
+    <string name="exit">Exit</string>
+    <string name="share">Share</string>
+    <string name="yes">Yes</string>
+    <string name="dismiss">Dismiss</string>
+
+
+    <!--error messages -->
+    <string name="connection_error">Connection error</string>
+    <string name="connection_error_message">Unable to reach server.\nPlease check your connection.</string>
+
+    <string name="malformed_url_error">Malformed url error</string>
+    <string name="malformed_url_error_message">This is not a valid url. Please edit the feed and use a valid url.</string>
+
+    <string name="not_rss_url_error">Not RSS url error</string>
+    <string name="not_rss_url_error_message">This is not an RSS url. Please edit the feed and use an RSS url.</string>
+
+    <string name="parsing_error">Feed reading error</string>
+    <string name="parsing_error_message">There was an error parsing the feed. Maybe it is not an RSS feed url. Please review the url.</string>
+
+    <string name="duplication_error_message">This url is already in the list. Please enter a new url.</string>
+    <string name="validation_error_message">This is not a valid url. Please enter a valid url.</string>
+    <string name="facebook_parsing_error_message">Only valid url can be shared on facebook. Please check the url again.</string>
+
+    <!-- sharedialog -->
+    <string name="share_dialog_title">Share Rss Feed Url</string>
+    <string name="share_dialog_message">Share this url to Facebook? </string>
+
+    <!--info -->
+    <string name="info_title">Info</string>
+    <string name="info_message">You can add new RSS feeds channels by pressing the plus icon. Tapping on the RSS feed channel will navigate to the feed page, holding it will bring forward the edit dialog where you can edit or delete the channel or share it on facebook. </string>
+    <string name="rss_feed_type_in">Please type the url of the RSS feed.</string>
+
+</resources>
